@@ -5,5 +5,6 @@ export default defineConfig({
   plugins: [vue()],
   server: {
     open: true
-  }
+  },
+  publicPath: '/things-record/'
 })
